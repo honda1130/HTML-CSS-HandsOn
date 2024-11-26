@@ -7,23 +7,74 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
+<header class="header">
+  <img src="img/logo.png" alt="logo" class="header-logo" />
+  <nav>
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#articles">Article</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <main class="main-content">
+<main class="main-content">
       <!-- メインビジュアル -->
-
+       <img src="img/main_visual.jpg" alt="メインビジュアル" class="main-visual" />
       <!-- プロフィール セクション -->
+ <section class="section" id="profile">
+  <h2 class="section-title">Profile</h2>
+  <div class="profile">
+    <img src="img/profile.png" alt="profile" class="profile-image" />
+    <div class="profile-info">
+      <h3>Takuto Honda
+      </h3>
+      <p>
+        出身: 千葉県<br />
+        趣味: 旅行, 料理(好きな料理は、ビーフシチューです)<br />
+        技術: 絶賛学習中<br />
+        主な仕事: 学業
+      </p>
+    </div>
+  </div>
+ </section>
+        <!-- 記事 セクション -->
+ <section class ="section" id="articles">
+  <h2 class="section-titles">Articles</h2>
+  <div class="articles">
+    <div class="article">
+      <img src="img/article.jpg" alt="記事サムネイル" class="article-image" />
+      <h3>記事のタイトル</h3>
+      <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+    </div>
+    <div class="article">
+      <img src="img/article.jpg" alt="記事サムネイル" class="article-image" />
+      <h3>記事のタイトル</h3>
+      <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+    </div>
+    <div class="article">
+      <img src="img/article.jpg" alt="記事サムネイル" class="article-image" />
+      <h3>記事のタイトル</h3>
+      <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+    </div>
+    <div class="article">
+      <img src="img/article.jpg" alt="記事サムネイル" class="article-image" />
+      <h3>記事のタイトル</h3>
+      <p>こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。こんな記事を書きました。</p>
+    </div>
+  </div>
+ </section>
 
-      <!-- 記事 セクション -->
-
-    </main>
-
+</main>
     <!-- フッター -->
+    <footer class="footer">
+      <p>&copy; 2024 Profile</p>
+    </footer>
 
   </div>
 </body>
