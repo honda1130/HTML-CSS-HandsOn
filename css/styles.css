@@ -56,21 +56,21 @@ a {
   
   .header ul {
     display: flex;
-    gap: 24px;
+    gap: 24px; /* メニュー間の間隔 */
   }
   
   .header li a:hover {
-    opacity: 0.7;
+    opacity: 0.7;/* ホバー時の不透明度 */
   }
 
 /*-------------------------------------------
   メインビジュアル
   -------------------------------------------*/
   .main-visual {
-    width: 100%;
-    height: 640px;
-    object-fit: cover;
-    border-radius: 16px;
+    width: 100%;/* 親要素の幅に合わせる */
+    height: 640px;/* 固定高さ */
+    object-fit: cover;/* アスペクト比を維持 */
+    border-radius: 16px;/* 角の丸め半径 */
   }
 
 /*-------------------------------------------
@@ -94,7 +94,7 @@ a {
   .profile {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 40px;/* 画像部分と文章部分の間隔 */
   }
   
   .profile-image {
@@ -115,14 +115,14 @@ a {
   -------------------------------------------*/
   .articles {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px 16px;
+    grid-template-columns: 1fr 1fr 1fr;/* グリッドレイアウト */
+    gap: 40px 16px;/* 縦方向40px、横方向16pxの間隔 */
   }
   
   .article {
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: column; 
+    gap: 8px;  /* 画像部分、タイトル部分、内容部分の間隔 */
   }
   
   .article-image {
@@ -135,7 +135,7 @@ a {
   フッター
   -------------------------------------------*/
   .footer {
-    font-size: small;
-    padding: 40px 0;
+    font-size: small; /* 小さい文字サイズ */
+    padding: 40px 0;  /* 上下のpadding */
     text-align: center;
   }
